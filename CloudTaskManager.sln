@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3BA9101F-9482-4CCA-8A53-20678C4A8F9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudTaskManager.Api", "src\CloudTaskManager.Api\CloudTaskManager.Api.csproj", "{252F4D0A-0F97-4CD8-AA12-3FA9231EB7FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudTaskManager.Infrastructure", "src\CloudTaskManager.Infrastructure\CloudTaskManager.Infrastructure.csproj", "{1B38722E-1ADF-4BB7-B16D-FC4239618C07}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{252F4D0A-0F97-4CD8-AA12-3FA9231EB7FD} = {3BA9101F-9482-4CCA-8A53-20678C4A8F9C}
+		{1B38722E-1ADF-4BB7-B16D-FC4239618C07} = {3BA9101F-9482-4CCA-8A53-20678C4A8F9C}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{252F4D0A-0F97-4CD8-AA12-3FA9231EB7FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{252F4D0A-0F97-4CD8-AA12-3FA9231EB7FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{252F4D0A-0F97-4CD8-AA12-3FA9231EB7FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{252F4D0A-0F97-4CD8-AA12-3FA9231EB7FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B38722E-1ADF-4BB7-B16D-FC4239618C07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B38722E-1ADF-4BB7-B16D-FC4239618C07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B38722E-1ADF-4BB7-B16D-FC4239618C07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B38722E-1ADF-4BB7-B16D-FC4239618C07}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
