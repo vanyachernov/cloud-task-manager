@@ -4,8 +4,9 @@ var builder = WebApplication.CreateBuilder(args);
 {
     builder.Services.AddEndpointsApiExplorer();
     builder.Services.AddSwaggerGen();
-    
+    builder.Services.AddControllers();
     builder.Services.AddCloudTaskDbContext(builder.Configuration);
+    builder.Services.AddAzureBlobStorage();
 }
 
 var app = builder.Build();
@@ -17,5 +18,6 @@ var app = builder.Build();
     }
 
     app.UseHttpsRedirection();
+    app.MapControllers();
     app.Run();
 }
